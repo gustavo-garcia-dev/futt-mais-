@@ -1,4 +1,4 @@
-# ⚽ futt-mais+
+# ⚽ futt-mais  - meu projeto **
 
 > Plataforma para amantes de futebol acompanharem estatísticas, resultados e muito mais.
 
