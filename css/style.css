@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+    font-family: "Noto Sans", sans-serif;
 
 }
 
@@ -35,6 +38,8 @@ header{
     display: flex;
     justify-content: center;
     list-style: none;
+    font-size: 14px;      /* diminui o texto */
+  
 }
 
 .nav-item{
@@ -58,11 +63,34 @@ header{
     background-color: rgb(159, 226, 159);
 }
 
-
-
-.marca
+.marca{
     display: flex;
     justify-content: space-between;
     align-items:center;
     padding: 10px 20px;
+}
+
+.list-decoration{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a {
+  font-size: 14px;      
+  font-weight: normal; 
+  color: #222;          
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+nav a i {
+  font-size: 14px;   /* deixa igual ao texto */
+  margin-right: 6px;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
 }
