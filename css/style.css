@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Fjalla+One&display=swap');
+
 
 * {
     padding: 0;
@@ -8,7 +10,7 @@
 }
 
 .font-title{
-    font-family: "Fjalla One", sans-serif;
+    font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
@@ -18,6 +20,9 @@ body{
     background-color:  rgb(36, 105, 27);
 }
 
+.background {
+    opacity: 0.5;
+}
 
 header{
     background-color: rgb(20, 20, 20);
@@ -38,6 +43,7 @@ header{
 
 .logo h1{
     color:  rgb(36, 105, 27);
+    text-align: center;
 }
 
 .nav-list{
@@ -120,9 +126,11 @@ nav a {
     border-radius: 20px;
     margin-bottom: 20px;
     border: 1px solid gray;
-
 }
 
+.card:hover{
+    transform: scale(1.10);
+}
 .card img{
     display: block;
     margin: 0 auto;
