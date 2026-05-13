@@ -7,15 +7,13 @@
 }
 
 body{
-    background-color:  rgb(240, 240, 240);
+    background-color: rgb(47, 200, 27);
 }
 
 
 header{
-    background-color: rgb(47, 200, 27);
+    background-color: rgb(28, 30, 27);
     align-items: center;
-    border-radius: 20px;
-    
 }
 
 .nav-bar{
@@ -30,7 +28,7 @@ header{
 }
 
 .logo h1{
-    color: rgb(0, 0, 0);
+    color: rgb(47, 200, 27);
 }
 
 .nav-list{
@@ -43,15 +41,17 @@ header{
     justify-content: center;
     list-style: none;
     font-size: 14px;      /* diminui o texto */
-  
 }
+
 
 .nav-item{
     margin: 15px;
+    
+    
 }
 
 .nav-item :hover{
-    color: rgb(115, 224, 72);
+    color: rgb(152, 240, 117);
 }
 
 .nav-link{
@@ -59,6 +59,7 @@ header{
     font-size: 1.15 rem;
     color:black ;
     font-weight: 400;
+    color: rgb(47, 200, 27);
 }
 
 .login-button button{
@@ -121,11 +122,76 @@ nav a {
     margin: 0 auto;
 }
 
-footer{
+.card:hover {
+    transform:scale(1.1);
+    transition: 0.3s;
     
+}
+
+footer{
     color: #222;
     text-align: center;
     padding: 20px;
     margin-top: 10px;
 }
 
+.titulo-socio{
+    color: #2cff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 50px;
+}
+
+/* Formulário */
+form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+form label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form input,
+form select {
+  padding: 10px;
+  border: 1px solid #777474;
+  border-radius: 8px;
+}
+
+form .titulo-checkbox {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(39, 39, 234);
+  color: white;
+  cursor: pointer;
+}
+
+.cadastro {
+    text-decoration: none
+}
+
+.cadastro:hover {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}    
