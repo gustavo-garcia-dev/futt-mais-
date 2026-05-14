@@ -17,7 +17,7 @@
 }
 
 body{
-    background-color: rgb(47, 200, 27);
+    background-color: rgb(106, 109, 106);
 }
 
 .background {
@@ -41,8 +41,10 @@ header{
 }
 
 .logo h1{
-    color:  rgb(36, 105, 27);
+    color: rgb(47, 200, 27);
     text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
 .nav-list{
@@ -56,7 +58,6 @@ header{
     list-style: none;
     font-size: 14px;      /* diminui o texto */
 }
-
 
 .nav-item{
     margin: 15px;
@@ -74,12 +75,6 @@ header{
     color:black ;
     font-weight: 400;
     color: rgb(47, 200, 27);
-}
-
-.login-button button{
-    position: absolute;
-    transform: translate(-50%);
-    background-color: rgb(159, 226, 159);
 }
 
 .marca{
