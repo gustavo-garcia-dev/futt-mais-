@@ -205,4 +205,69 @@ form button {
     color: red;
     text-decoration: none;
     cursor: pointer;
-}    
+} 
+
+
+/* Caixa do menu */
+.menu{
+    width:300px;
+    margin:40px auto;
+    background:#f4f4f4;
+    border-radius:8px;
+    padding:10px;
+}
+
+/* Lista */
+.menu ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+/* Item */
+.menu li{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    background:#ececec;
+    border:1px solid #d0d0d0;
+
+    margin-bottom:2px;
+    height:32px;
+
+    cursor:pointer;
+    transition:0.2s;
+}
+
+.menu li:hover{
+    background:#dfefff;
+}
+
+/* Parte esquerda */
+.item-left{
+    display:flex;
+    align-items:center;
+}
+
+/* Ícone */
+.item-left img{
+    width:28px;
+    height:28px;
+    object-fit:cover;
+    margin-right:10px;
+}
+
+/* Texto */
+.item-left span{
+    font-size:14px;
+    font-weight:bold;
+    color:#333;
+}
+
+/* Seta */
+.arrow{
+    padding-right:10px;
+    color:#777;
+    font-size:18px;
+}
