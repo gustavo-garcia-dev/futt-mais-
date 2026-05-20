@@ -6,6 +6,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-family: "Noto Sans", sans-serif;
 }
 
@@ -211,11 +212,12 @@ form button {
 /* Caixa do menu */
 .menu{
     width:300px;
-    margin-top:100px;
+    margin-top:1px;
     margin-left: 1px;
     background:#f4f4f4;
     border-radius:8px;
     padding:10px;
+    height: 100vh;
 }
 
 /* Lista */
@@ -225,18 +227,19 @@ form button {
     margin:0;
 }
 
+.menu a{
+    text-decoration: none;
+}
+
 /* Item */
 .menu li{
     display:flex;
     align-items:center;
     justify-content:space-between;
-
     background:#ececec;
     border:1px solid #d0d0d0;
-
     margin-bottom:2px;
     height:32px;
-
     cursor:pointer;
     transition:0.2s;
 }
@@ -271,4 +274,19 @@ form button {
     padding-right:10px;
     color:#777;
     font-size:18px;
+}
+
+.conteudo{
+    flex:1;
+    margin-top:100px;
+    background:#ffffff; 
+    border-radius:8px;
+    margin-left:20px;
+    padding:20px;
+    animation:fade 0.5s;
+}
+
+.titulo{
+    text-align: center;
+    color: #ffffff;
 }
