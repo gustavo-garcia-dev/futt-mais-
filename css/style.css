@@ -124,6 +124,7 @@ nav a {
     border-radius: 10px;
     margin-bottom: 20px;
     border: 1px solid gray;
+    
 }
 
 .card:hover{
@@ -212,12 +213,15 @@ form button {
 /* Caixa do menu */
 .menu{
     width:300px;
-    margin-top:1px;
-    margin-left: 1px;
+    margin-top:168px;
+    margin-left:1px;
     background:#f4f4f4;
     border-radius:8px;
     padding:10px;
-    height: 100vh;
+    height:100vh;
+    position:fixed;
+    top:0;
+    left:0;
 }
 
 /* Lista */
@@ -286,7 +290,13 @@ form button {
     animation:fade 0.5s;
 }
 
+.conteudoTitulo{
+    margin-left:350px;
+}
+
 .titulo{
-    text-align: center;
-    color: #ffffff;
+    color:white;
+    font-size:20px;
+    margin-right: ;
+    
 }
