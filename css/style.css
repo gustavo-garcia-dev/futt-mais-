@@ -300,3 +300,13 @@ form button {
     margin-right: ;
     
 }
+
+.cardTimes {
+     background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    margin-left: 1550px;
+    
+}
