@@ -12,9 +12,9 @@
 
 .font-title{
     font-family: "Noto Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
 }
 
 body{
@@ -124,7 +124,6 @@ nav a {
     border-radius: 10px;
     margin-bottom: 20px;
     border: 1px solid gray;
-    
 }
 
 .card:hover{
@@ -213,15 +212,13 @@ form button {
 /* Caixa do menu */
 .menu{
     width:300px;
-    margin-top:168px;
-    margin-left:1px;
+    margin-top: -1078px;
+    margin-left: 1px;
     background:#f4f4f4;
     border-radius:8px;
     padding:10px;
-    height:100vh;
-    position:fixed;
-    top:0;
-    left:0;
+    height: 100vh;
+    
 }
 
 /* Lista */
@@ -248,18 +245,18 @@ form button {
     transition:0.2s;
 }
 
-.menu li:hover{
+.menu li:hover {
     background:#dfefff;
 }
 
 /* Parte esquerda */
-.item-left{
+.item-left {
     display:flex;
     align-items:center;
 }
 
 /* Ícone */
-.item-left img{
+.item-left img {
     width:28px;
     height:28px;
     object-fit:cover;
@@ -267,20 +264,20 @@ form button {
 }
 
 /* Texto */
-.item-left span{
+.item-left span {
     font-size:14px;
     font-weight:bold;
     color:#333;
 }
 
 /* Seta */
-.arrow{
+.arrow {
     padding-right:10px;
     color:#777;
     font-size:18px;
 }
 
-.conteudo{
+.conteudo {
     flex:1;
     margin-top:100px;
     background:#ffffff; 
@@ -290,23 +287,23 @@ form button {
     animation:fade 0.5s;
 }
 
-.conteudoTitulo{
-    margin-left:350px;
-}
-
-.titulo{
-    color:white;
-    font-size:20px;
-    margin-right: ;
-    
+.titulo {
+    text-align: center;
+    color: #ffffff;
 }
 
 .cardTimes {
-     background: #fff;
+    background: #fff;
     padding: 20px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-top: -230px;
     border: 1px solid gray;
     margin-left: 1550px;
-    
+}
+
+.img-times {
+    display: flex;
+    margin: 0 auto;
+
+
 }
