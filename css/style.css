@@ -34,6 +34,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -58,6 +59,9 @@ header{
     justify-content: center;
     list-style: none;
     font-size: 14px;      /* diminui o texto */
+    flex-wrap: wrap;
+    gap: 10px;
+
 }
 
 .nav-item{
@@ -116,6 +120,10 @@ nav a {
     flex-wrap: wrap;
     padding: 100px;
    margin-top: 20px;
+   position: relative;
+   padding: 20px;
+   justify-content: center;
+
 }
 
 .card{
@@ -124,6 +132,8 @@ nav a {
     border-radius: 10px;
     margin-bottom: 20px;
     border: 1px solid gray;
+    width: 90%;
+    max-width: 350px;
 }
 
 .card:hover{
@@ -212,12 +222,16 @@ form button {
 /* Caixa do menu */
 .menu{
     width:300px;
-    margin-top: -1078px;
+    margin-top: -1491px;
     margin-left: 1px;
     background:#f4f4f4;
     border-radius:8px;
     padding:10px;
     height: 100vh;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    position: relative;
     
 }
 
@@ -285,6 +299,7 @@ form button {
     margin-left:20px;
     padding:20px;
     animation:fade 0.5s;
+    
 }
 
 .titulo {
@@ -294,16 +309,16 @@ form button {
 
 .cardTimes {
     background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: -230px;
-    border: 1px solid gray;
-    margin-left: 1550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 90%;
+    max-width: 300px;
 }
 
 .img-times {
     display: flex;
-    margin: 0 auto;
-
-
+    width: 100%;
+    height: auto;
+    top: 0;
 }
