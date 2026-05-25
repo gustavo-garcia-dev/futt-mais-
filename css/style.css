@@ -10,6 +10,11 @@
     font-family: "Noto Sans", sans-serif;
 }
 
+body, html{
+    height: auto;
+    min-height: 100%;
+}
+
 .font-title{
     font-family: "Noto Sans", sans-serif;
     font-weight: 400;
@@ -123,6 +128,7 @@ nav a {
    position: relative;
    padding: 20px;
    justify-content: center;
+   position: relative;
 
 }
 
@@ -228,10 +234,12 @@ form button {
     border-radius:8px;
     padding:10px;
     height: 100vh;
-    width: 100%;
+    width: 15%;
     height: auto;
     margin-top: 0;
     position: relative;
+    bottom: 1651px;
+    height: 100vh;
     
 }
 
@@ -314,11 +322,18 @@ form button {
     margin-top: 20px;
     width: 90%;
     max-width: 300px;
+    padding: 39px;
+    border-radius: 10px;
+    margin-right: 10px;
+    position: relative;
+    bottom: 160px;
 }
 
 .img-times {
     display: flex;
-    width: 100%;
+    width: 50%;
     height: auto;
-    top: 0;
+    margin: 0 auto;
+    position: relative;
+    bottom: 850px;
 }
