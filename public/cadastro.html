@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <nav class="nav-bar">
+
+            <div class="marca">
+                <img src="img/logo-futt+.png" alt="minhas logo" width="150">
+            </div>
+
+            <div class="logo">
+                <h1>Cadastre-se</h1>
+                <script src="./JS/script.js"></script>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="sobre.html" class="nav-link"><i class="fa-solid fa-house">Voltar</i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+     <section>
+        <form>
+            <article class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+            </article>
+
+            <article class="form-group">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" id="sobrenome">
+            </article>
+
+            <article class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="email">
+            </article>
+
+            <article class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha">
+            </article>
+
+             <article class="form-group">
+                <label for="senha">Repetir senha</label>
+                <input type="password" id="senha">
+            </article>
+
+            <article class="form-group">
+                <label for="time">Qual time você torce?</label>
+                <select name="" id="">
+                    <option value="sp">São Paulo</option>
+                    <option value="sccp">Corinthians</option>
+                    <option value="pal">Palmeiras</option>
+                    <option value="rbb">RB Bragantino</option>
+                    <option value="fla">Flamengo</option>
+                    <option value="cor">Coritiba</option>
+                    <option value="ban">Bangu</option>
+                    <option value="vas">Vasco</option>
+                    <option value="bot">Botafogo</option>
+                    <option value="gre">Gremio</option>
+                    <option value="int">Internacional</option>
+
+                </select>
+            </article>
+
+            <article>
+                <label for="sexo">sexo</label>
+                <select name="" id="">
+                    <option value="m">masculino</option>
+                    <option value="f">feminino</option>
+                </select>
+            </article> <br>
+
+            <article class="form-group">
+                <button>Enviar</button>
+            </article>
+        </form>
+    </section>
+</body>
+</html>
