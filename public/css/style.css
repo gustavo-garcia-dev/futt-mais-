@@ -187,7 +187,20 @@ form {
   border-radius: 12px;
   width: 434px;
   margin: 0 auto;
-  margin-top: 80px;
+  position: relative;
+  bottom: 600px;
+}
+
+.img-login {
+    opacity: 0.4;
+    margin-left: 58%;
+    position: relative;
+    bottom: 128px;
+}
+
+form img {
+    display: flex;
+    margin: 0 auto;
 }
 
 form .form-group {
