@@ -191,6 +191,16 @@ form {
   bottom: 600px;
 }
 
+.form-times {
+    background-color: rgb(28, 30, 27);
+     padding: 30px;
+    border-radius: 12px;
+     width: 434px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+
 .img-login {
     opacity: 0.4;
     margin-left: 58%;
