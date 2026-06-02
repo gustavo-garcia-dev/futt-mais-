@@ -77,3 +77,5 @@ formulario.addEventListener("submit", function (event) {
     sexo.value = "";
     checkbox.checked = false;
 });
+
+
