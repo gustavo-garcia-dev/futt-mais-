@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quero ser socio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+
+            <div class="marca">
+                <img src="img/card-3.png" alt="Logo" width="100">
+            </div>
+
+            <div class="logo">
+                <h1 class="font-title">
+                    <i class="fa-solid fa-money"></i>
+                    Pagina de pagamento!
+                </h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">
+                            <i class="fa-solid fa-house"></i>
+                            Início
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+     <section class="beneficios">
+
+        <div class="beneficio">
+            <img src="img/icone-pix.webp" alt="" width="100">
+            <h3>pix</h3>
+            <p>pagamento cai na hora!</p>
+        </div>
+
+        <div class="beneficio">
+            <img src="img/icone-cartao.png" alt="" width="100">
+            <h3>Debito</h3>
+            <p>No debito você tem 10% de desconto</p>
+        </div>
+
+        <div class="beneficio">
+             <img src="img/icone-cartao.png" alt="" width="100">
+            <h3>Credito</h3>
+            <p>No credito até 5 vezes sem juros</p>
+        </div>
+
+    </section>
+
+     <div class="container">
+        <form class="form-pagamento">
+            <h2>Pagamento</h2>
+
+            <label for="nome">Nome no Cartão</label>
+            <input type="text" id="nome" placeholder="Digite o nome">
+
+            <label for="numero">Número do Cartão</label>
+            <input type="text" id="numero" placeholder="0000 0000 0000 0000">
+
+            <div class="linha">
+                <div>
+                    <label for="validade">Validade</label>
+                    <input type="text" id="validade" placeholder="MM/AA">
+                </div>
+
+                <div>
+                    <label for="cvv">CVV</label>
+                    <input type="password" id="cvv" placeholder="123">
+                </div>
+            </div>
+
+            <label for="parcelas">Parcelas</label>
+            <select id="parcelas">
+                <option>1x sem juros</option>
+                <option>2x sem juros</option>
+                <option>3x sem juros</option>
+                <option>4x sem juros</option>
+                <option>5x sem juros</option>
+            </select>
+
+            <button type="submit">Finalizar Pagamento</button>
+        </form>
+    </div>
+
+</body>
+</html>
