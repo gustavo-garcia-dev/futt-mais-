@@ -1,55 +1,74 @@
-const Formulario = document.getElementById("meuCadastro");
+const formulario = document.getElementById("meuCadastro");
 
-Formulario.addEventListener("submit", function (event) {
-    event.preventDefault();
-
+formulario.addEventListener("submit", function (event) {
+    
     const nome = document.getElementById("nome");
     const sobrenome = document.getElementById("sobrenome");
     const email = document.getElementById("email");
     const senha = document.getElementById("senha");
-    const rsenha = document.getElementById("rep-senha")
-    const sexo = document.getElementById("sexo") 
+    const rsenha = document.getElementById("rep-senha");
+    const sexo = document.getElementById("sexo");
     const checkbox = document.getElementById("checkbox");
 
-
-    // validação
+    // Nome
     if (nome.value.trim() === "") {
-        alert("preencha o nome");
-        return false;
+        event.preventDefault();
+        alert("Preencha o nome.");
+        return;
     }
-   
+
+    // Sobrenome
     if (sobrenome.value.trim() === "") {
-        alert("preencha o sobrenome");
-        return false;
+        event.preventDefault();
+        alert("Preencha o sobrenome.");
+        return;
     }
 
+    // E-mail
     if (email.value.trim() === "") {
-        alert("preencha o email");
-        return false;
+        event.preventDefault();
+        alert("Preencha o e-mail.");
+        return;
     }
 
+    // Senha
     if (senha.value.trim() === "") {
-        alert("crie uma senha");
-        return false;
+        event.preventDefault();
+        alert("Crie uma senha.");
+        return;
     }
 
+    // Repetir senha
     if (rsenha.value.trim() === "") {
-        alert("preencha a senha novamente");
-        return false;
+        event.preventDefault();
+        alert("Repita a senha.");
+        return;
     }
 
-    if (sexo.value.trim() === "") {
-        alert("preecha o sexo");
-        return false;
+    // Conferir senhas
+    if (senha.value !== rsenha.value) {
+        event.preventDefault();
+        alert("As senhas não coincidem.");
+        return;
     }
 
-    if (checkbox.value.trim() === "") {
-        alert("formulario enviado!");
-        return false;
+    // Sexo
+    if (sexo.value === "") {
+        event.preventDefault();
+        alert("Selecione o sexo.");
+        return;
     }
 
+    // Checkbox
+    if (!checkbox.checked) {
+        event.preventDefault();
+        alert("Aceite os termos para continuar.");
+        return;
+    }
 
-     // limpar campos
+    alert("Formulário enviado com sucesso!");
+
+    // Limpar campos (opcional)
     nome.value = "";
     sobrenome.value = "";
     email.value = "";
@@ -57,7 +76,4 @@ Formulario.addEventListener("submit", function (event) {
     rsenha.value = "";
     sexo.value = "";
     checkbox.checked = false;
-
-    alert("formulario enviado!")
-
 });
