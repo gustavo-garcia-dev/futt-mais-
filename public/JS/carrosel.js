@@ -1,6 +1,6 @@
 const slider = document.querySelectorAll(".slider")
-const btnPrev = document.querySelectorAll(".prev-button")
-const btnNext = document.querySelectorAll("next-button")
+const btnPrev = document.getElementById("prev-button")
+const btnNext = document.getElementById("next-button")
 
 let currentSlide = 0
 
@@ -9,7 +9,30 @@ function hideSlide() {
 }
 
 function showSlider() {
-    slider[currrentSlider].classList.add("on")
+    slider[currentSlide].classList.add("on")
 }
 
-btnNext.addEventListener("click", () => console.log("clicar"))
+function nextSlider() {
+    hideSlide()
+    if(currentSlide == slider.length -1) {
+        currentSlide = 0 
+    } else {
+        currentSlide++
+    }
+    showSlider()
+}
+
+function prevSlider() {
+    hideSlide()
+    if(currentSlide == 0) {
+        currentSlide = slider.length -1 
+    } else {
+        currentSlide--
+    }
+    showSlider()
+}
+
+btnNext.addEventListener("click", nextSlider)
+btnPrev.addEventListener("click", prevSlider)
+
+console.log(slider)
